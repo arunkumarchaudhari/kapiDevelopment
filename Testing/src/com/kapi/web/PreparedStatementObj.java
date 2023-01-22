@@ -18,7 +18,7 @@ class PreparedStatementObj {
 		boolean flag=false;
 		while(rs.next()) {
 			flag=true;
-			System.out.println(rs.getString(1)+"\t"+rs.getString(2));
+			System.out.println(rs.getString(1)+"\t"+rs.getString(2));//TESTING PUSH
 		}
 		if(!flag) {
 			System.out.println("No Data Found with the given name");
